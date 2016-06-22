@@ -1,0 +1,161 @@
+@import "bootstrap.css";
+
+body {
+    background: transparent url("background.jpg") no-repeat fixed center center / cover;
+    min-height: 100vh;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 620px;
+    }
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 35px;
+    color: #1a1a1a;
+    font-weight: 600;
+}
+
+.in-block {
+    max-width: 100%;
+}
+
+.text-block {
+    color: #1a1a1a;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.text-block b {
+    font-weight: 900;
+}
+
+.logo {
+    font-family: Impact, "Arial Narrow Bold";
+    color: #1a1a1a;
+    height: 50px;
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.work-field {
+    height: 80px;
+    margin-bottom: 15px;
+}
+
+.work-field .form-control,
+.work-field .btn {
+    border-radius: 0;
+    height: 80px;
+    font-size: 48px;
+    font-weight: 600;
+    padding-top: 9px !important;
+    border: 0 solid transparent;
+    background: #fff;
+    /*background: transparent;*/
+    /*color: #777;*/
+    color: #2d2d2d;
+    border-image-width: 0;
+    box-shadow: none;
+}
+
+.work-field .btn {
+    font-size: 50px;
+    padding: 3px 16px;
+    line-height: 1;
+    border: 0 solid transparent;
+
+}
+
+.work-field .btn img {
+    height: 50px;
+    padding: 0 5px 10px;
+}
+
+.work-field .dropdown-menu {
+    border-radius: 0;
+    padding: 0;
+    margin-top: 0;
+}
+
+.work-field .dropdown-menu li a {
+    border-radius: 0;
+    height: 80px;
+    font-size: 50px;
+    font-weight: 600;
+    padding: 3px 15px;
+}
+
+.work-field .dropdown-menu li a img {
+    height: 50px;
+    padding: 0 5px 10px;
+}
+
+.workplace {
+    background: rgba(201, 226, 179, 0.5);
+}
+
+.continue {
+    line-height: 22px;
+    font-size: 20px;
+    font-family: Impact, "Arial Narrow Bold";
+    color: #2d2d2d;
+    background: transparent none repeat scroll 0% 0%;
+    padding: 17px 30px;
+    border-radius: 0;
+    border: 2px solid #2d2d2d;
+    position: relative;
+    margin: 15px auto 30px;
+    box-sizing: border-box;
+    width: auto;
+    transition: all 0.5s ease 0s;
+    text-align: center;
+
+}
+
+.continue:hover {
+    color: #fff;
+    background: #2d2d2d;
+}
+
+@media (max-width: 768px) {
+
+    .logo {
+        font-size: 24px;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .work-field .form-control,
+    .work-field .btn {
+        font-size: 24px;
+    }
+
+    .workplace {
+        background: rgba(201, 226, 179, 0.5);
+        padding: 15px 0;
+    }
+
+    .work-field .dropdown-menu li {
+        text-align: center;
+    }
+
+    .work-field .dropdown-menu li a {
+        height: 44px;
+        font-size: 24px;
+        padding: 7px 15px 1px;
+    }
+
+    .work-field .dropdown-menu li a img {
+        height: 34px;
+        padding: 0 5px 10px;
+    }
+}

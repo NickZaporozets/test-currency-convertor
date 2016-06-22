@@ -1,0 +1,20 @@
+{
+  "name": "USD",
+  "icon": "currencies/usa.png",
+  "rates": [
+    {
+      "code": "EUR",
+      "name": "Euro",
+      "icon": "currencies/euro.png",
+      "coefficient": 0.935103,
+      "fee": 0.02
+    },
+    {
+      "code": "UAH",
+      "name": "Ukrainian Hryvnia",
+      "icon": "currencies/ua.png",
+      "coefficient": 23.94324,
+      "fee": 0.01
+    }
+  ]
+}
